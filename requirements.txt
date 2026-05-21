@@ -1,0 +1,7 @@
+google-api-python-client
+matplotlib
+nltk
+numpy
+python-dotenv
+scikit-learn
+seaborn

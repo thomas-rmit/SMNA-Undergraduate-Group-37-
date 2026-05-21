@@ -6,9 +6,10 @@
 # YouTube API client (replacing Reddit/PRAW client)
 #
 
-import sys
+from dotenv import load_dotenv
 from googleapiclient.discovery import build
-
+from os import getenv
+import sys
 
 def youtubeClient():
     """
@@ -23,14 +24,10 @@ def youtubeClient():
 
         @returns: YouTube API service object
     """
-
+    load_dotenv()
     try:
-        #
-        # TODO: you specify with your own API key
-        #
-        apiKey = "AIzaSyC2wFitaPuP6wB5aSHQdMxg-3FuTZ090PE"
-
-        youtube = build('youtube', 'v3', developerKey=apiKey)
+        API_KEY = getenv('API_KEY')
+        youtube = build('youtube', 'v3', developerKey=API_KEY)
     except Exception as e:
         sys.stderr.write("Failed to create YouTube client: {}\n".format(str(e)))
         sys.exit(1)
