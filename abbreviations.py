@@ -1,0 +1,36 @@
+# Abbreviation library based on Webopedia internet slang dictionary (Beal. V., 2023),
+# supplemented with custom additions for YouTube/social media comment contexts.
+
+ABBREVIATIONS = {
+    # --- Webopedia-sourced ---
+    "2moro": "tomorrow", "2nite": "tonight", "brb": "be right back",
+    "btw": "by the way", "b4": "before", "bff": "best friends forever",
+    "cya": "see you", "diy": "do it yourself", "dm": "direct message",
+    "faq": "frequently asked questions", "fomo": "fear of missing out",
+    "ftw": "for the win", "fwiw": "for what it is worth",
+    "fyi": "for your information", "gg": "good game", "gl": "good luck",
+    "gr8": "great", "gtg": "got to go", "hmu": "hit me up",
+    "hy": "hell yeah", "idc": "i do not care", "idk": "i do not know",
+    "iirc": "if i recall correctly", "ikr": "i know right",
+    "ily": "i love you", "imho": "in my humble opinion",
+    "imo": "in my opinion", "irl": "in real life", "jk": "just kidding",
+    "lmao": "laughing my ass off", "lmk": "let me know", "lol": "laughing out loud",
+    "ngl": "not gonna lie", "nvm": "never mind", "ofc": "of course",
+    "omg": "oh my god", "omw": "on my way", "op": "overpowered",
+    "ot": "off topic", "pov": "point of view", "rofl": "rolling on the floor laughing",
+    "smh": "shaking my head", "tbf": "to be fair", "tbh": "to be honest",
+    "tbt": "throwback thursday", "tfw": "that feeling when",
+    "tmi": "too much information", "ttyl": "talk to you later",
+    "ty": "thank you", "tyvm": "thank you very much",
+    "w/o": "without", "wbu": "what about you", "wtf": "what the hell",
+    "wth": "what the heck", "wywh": "wish you were here",
+    "yolo": "you only live once", "yw": "you are welcome",
+    # --- Custom additions for YouTube/social media ---
+    "rn": "right now", "atm": "at the moment", "fr": "for real",
+    "npc": "non playable character", "mid": "mediocre",
+    "lowkey": "somewhat", "highkey": "very much", "goat": "greatest of all time",
+    "w": "win", "l": "loss", "bc": "because", "cuz": "because",
+    "gonna": "going to", "wanna": "want to", "gotta": "got to",
+    "kinda": "kind of", "sorta": "sort of", "til": "today i learned",
+    "afaik": "as far as i know",
+}

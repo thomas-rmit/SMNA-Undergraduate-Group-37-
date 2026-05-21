@@ -273,7 +273,9 @@ if __name__ == '__main__':
 
     # --- Option B: Fetch from a list of video links ---
     VIDEO_LINKS = [
-        'https://www.youtube.com/watch?v=NSf2BDRe4pA'
+        'https://www.youtube.com/watch?v=4N-914wIMPY',
+        'https://www.youtube.com/watch?v=HHusgEBIYhs'
+        
     ]
     MAX_COMMENTS = 1000   # None = fetch ALL comments per video
     OUTPUT_FILE = 'dataCollection/data/data.json'
