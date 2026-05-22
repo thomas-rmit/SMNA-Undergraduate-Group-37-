@@ -273,9 +273,42 @@ if __name__ == '__main__':
 
     # --- Option B: Fetch from a list of video links ---
     VIDEO_LINKS = [
+# Sky News Pre War
+        'https://www.youtube.com/watch?v=euNsW7kvNJc',
+        'https://www.youtube.com/watch?v=ijDBAfPUTas',
+
+        # Sky News 2022
         'https://www.youtube.com/watch?v=4N-914wIMPY',
-        'https://www.youtube.com/watch?v=HHusgEBIYhs'
-        
+        'https://www.youtube.com/watch?v=NhQeU4rj50Q',
+
+        # Sky News 2024
+        'https://www.youtube.com/watch?v=L2E44vC8mzY',
+        'https://www.youtube.com/watch?v=_RSU0OxVBeg',
+
+        # BBC Pre War
+        'https://www.youtube.com/watch?v=yhe0ZOOHmVQ',
+        'https://www.youtube.com/watch?v=IjH-hJQBM38',
+
+        # BBC 2022
+        'https://www.youtube.com/watch?v=6tOKJU9WevI',
+        'https://www.youtube.com/watch?v=HoiEu7F2OWg',
+
+        # BBC 2024
+        'https://www.youtube.com/watch?v=HHusgEBIYhs',
+        'https://www.youtube.com/watch?v=MaY-t2YGdA8',
+
+        # DW Pre War
+        'https://www.youtube.com/watch?v=qTs0rbHGDk8',
+        'https://www.youtube.com/watch?v=gzPbolzX9KM',
+
+        # DW 2022
+        'https://www.youtube.com/watch?v=h9FlJKFWawM',
+        'https://www.youtube.com/watch?v=GjGdyVBagzc',
+
+        # DW 2024
+        'https://www.youtube.com/watch?v=iNnA-CJh_e8',
+        'https://www.youtube.com/watch?v=rvhLrIWNCWg'
+
     ]
     MAX_COMMENTS = 1000   # None = fetch ALL comments per video
     OUTPUT_FILE = 'dataCollection/data/data.json'

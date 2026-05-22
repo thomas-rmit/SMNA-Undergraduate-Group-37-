@@ -9,6 +9,7 @@
 from dotenv import load_dotenv
 from googleapiclient.discovery import build
 from os import getenv
+from pathlib import Path
 import sys
 
 def youtubeClient():
@@ -24,7 +25,7 @@ def youtubeClient():
 
         @returns: YouTube API service object
     """
-    load_dotenv()
+    load_dotenv(Path(__file__).resolve().parent.parent / '.env')
     try:
         API_KEY = getenv('API_KEY')
         youtube = build('youtube', 'v3', developerKey=API_KEY)
