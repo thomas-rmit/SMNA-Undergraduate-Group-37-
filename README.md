@@ -18,3 +18,5 @@ API_KEY = "{YOUR KEY HERE :D}"
 ## Network Analysis Notebook
 - This notebook attempts to find evidence for potential answers to the report question.
 - If all packages are installed, simply select run all on jupyter
+
+# The pdf submissions can be found in the submission requirements folder
