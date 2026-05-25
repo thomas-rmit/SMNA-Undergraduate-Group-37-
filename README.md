@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 API_KEY = "{YOUR KEY HERE :D}"
 ```
-## Main Notebook
+## NLP Notebook
 - Please run this before Network Analysis, as this was our first notebook and influenced our decisions. More exploratory in nature.
 - If all packages are installed, simply select run all on jupyter
 ## Network Analysis Notebook
