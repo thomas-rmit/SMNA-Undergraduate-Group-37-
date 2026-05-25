@@ -5,3 +5,8 @@ numpy
 python-dotenv
 scikit-learn
 seaborn
+langdetect
+networkx
+wordcloud
+python-louvain
+jupyter
