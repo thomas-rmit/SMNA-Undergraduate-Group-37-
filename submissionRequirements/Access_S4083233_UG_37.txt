@@ -1,6 +1,9 @@
 GitHub Repository: https://github.com/thomas-rmit/SMNA-Undergraduate-Group-37-
 Access: Public repository — no additional permissions required.
 
-Link To Report:
-https://docs.google.com/document/d/1u-mEuSOBN0BLhW2mAKo72d_l8Mkgetpjwn_xhuJ9NrI/edit?usp=sharing
+Report:
+In this folder of this github repository, submitted as Report_4083233_UG_37.pdf
 Access: Public document — no additional permissions required.
+
+Worksheet:
+In this folder of this github repository, submitted as Worksheet_4083233_UG_37_pdf
